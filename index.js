@@ -260,3 +260,6 @@ function displayFinalResults(arrayForFailedQuestions, totalScore, timeTaken) {
 }
 
 // Ensure next button only works when an answer is selected
+
+// PENDING
+// Select the number of questions, the category, difficulty and type of questions I want to be quizzed on and the webpage should make the fetch request to display the quiz.
