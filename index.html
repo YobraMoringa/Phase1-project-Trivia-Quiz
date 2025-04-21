@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
     <script src="./index.js" defer></script>
 </head>
 
@@ -21,33 +22,44 @@
     <main class="hidden">
         <h1>TRIVIA QUIZ</h1>
         <p id="timerDisplay"></p>
-        <p id="questionNumber">Question</p>
+        <p id="questionNumber"></p>
         <p id="countDownTimer"></p>
-        <p id="questionDisplay">What is the name of the cognitive bias wherein a person with low ability in a particular
-            skill mistake
-            themselves as being superior?</p>
+        <p id="questionDisplay"></p>
         <form action="">
-            <input type="radio" id="multiple-choice-1" name="trivia_question_answer" value="">
-            <label for="multiple-choice-1">multiple-choice-1</label>
 
-            <input type="radio" id="multiple-choice-2" name="trivia_question_answer" value="">
-            <label for="multiple-choice-2">multiple-choice-2</label>
+            <div>
+                <input type="radio" id="multiple-choice-1" name="trivia_question_answer" value="">
+                <label for="multiple-choice-1"></label>
+            </div>
 
-            <input type="radio" id="multiple-choice-3" name="trivia_question_answer" value="">
-            <label for="multiple-choice-3">multiple-choice-3</label>
+            <div>
+                <input type="radio" id="multiple-choice-2" name="trivia_question_answer" value="">
+                <label for="multiple-choice-2"></label>
+            </div>
 
-            <input type="radio" id="multiple-choice-4" name="trivia_question_answer" value="">
-            <label for="multiple-choice-4">multiple-choice-4</label>
+            <div>
+                <input type="radio" id="multiple-choice-3" name="trivia_question_answer" value="">
+                <label for="multiple-choice-3"></label>
+            </div>
+
+            <div>
+                <input type="radio" id="multiple-choice-4" name="trivia_question_answer" value="">
+                <label for="multiple-choice-4"></label>
+            </div>
         </form>
 
         <button id="nextButton">NEXT</button>
 
-        <p id="displayResults" class="hidden">HIGH STAKES</p>
+        <p id="displayResults" class="hidden"></p>
     </main>
 
     <section class="hidden">
         <h1>SCORE BOARD</h1>
-        <p id="totalScoreDisplay"></p>
+        <div>
+            <p id="totalScoreDisplay"></p>
+            <p id="totalTimeDisplay"></p>
+        </div>
+        <p id="failedQuestionDisplay">Failed Questions</p>
         <ul></ul>
         <button id="restartButton">RESTART QUIZ WITH DIFFERENT QUESTIONS</button>
     </section>

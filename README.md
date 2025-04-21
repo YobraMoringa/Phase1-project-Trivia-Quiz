@@ -23,37 +23,34 @@ The user can:
 
 2. Click on the answer to a question and get a notification on whether it's correct or not. (No persistence needed)
 
+    * CORRECT ANSWER 
     ![Screenshot](./assets/Screenshot2.png)
+
+    * INCORRECT ANSWER
+    ![Screenshot](./assets/Screenshot3.png)
+
+    * STARTING THE NEXT QUESTION WITHOUT ANSWERING THE CURRENT ONE
+    ![Screenshot](./assets/Screenshot4.png)
 
 3. See their total score on a Score Board after they've answered all the questions. (No persistence needed)
 
-    ![Screenshot](./assets/Screenshot3.png)
+    ![Screenshot](./assets/Screenshot5.png)
 
 4. See all the correct answers to the questions they got wrong. (No persistence needed)
 
-    ![Screenshot](./assets/Screenshot1.png)
-
 5. Click on "Restart Quiz" to restart the quiz with either the same or different set of questions.
-
-    ![Screenshot](./assets/Screenshot4.png)
 
 6. See a timer that counts down how much time they have to answer a single question.
 
-    ![Screenshot](./assets/Screenshot5.png)
-
 7. Click on a "Next Question" button to see the next question instead of displaying all the questions in one page.
-
-    ![Screenshot](./assets/Screenshot5.png)
 
 8. A timer that shows how long they've taken to answer all the questions.
 
-    ![Screenshot](./assets/Screenshot5.png)
-
 ## Project Video Walkthrough
 
-Below is the link to the project video
+Below is the link to the project video. Search for the video called `Eric-Njuguna-trivia-video.mp4`
 
-![ProjectGif](./assets/Flatagram.gif)
+[https://drive.google.com/drive/folders/1deAe_8P788kJi8w9W8-JbgYOCwdSOm-9](https://drive.google.com/drive/folders/1deAe_8P788kJi8w9W8-JbgYOCwdSOm-9)
 
 ## How to Install and Run the Project
 

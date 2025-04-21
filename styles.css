@@ -7,9 +7,14 @@ body {
 
 header {
     max-width: fit-content;
+    margin-top: 25%;
+}
+
+header,
+main,
+section {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 25%;
 }
 
 header button {
@@ -21,11 +26,36 @@ header button {
     font-weight: bold;
 }
 
+#nextButton,
+#restartButton {
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    font-size: medium;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
 .hidden {
     display: none;
 }
 
 main {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+section {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 10px;
+}
+
+main,
+section {
+    text-align: center;
+    max-width: 40%;
     border: 3px solid white;
 }
 
@@ -34,6 +64,80 @@ h1 {
     text-align: center;
 }
 
-main p {
-    font-family: "Alfa Slab One";
+main p,
+label,
+section p {
+    font-family: "Smooch Sans";
+    font-size: 20px;
+}
+
+section ul {
+    padding: 0;
+}
+
+section li {
+    list-style-type: none;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+
+.relaxedZone {
+    color: #55ff00;
+}
+
+.dangerZone {
+    color: red;
+}
+
+.neutral {
+    background-color: white;
+    color: black;
+}
+
+.wrong {
+    background-color: #ec1404;
+}
+
+.right {
+    background-color: #55ff00;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+label {
+    margin: 0;
+    padding: 0;
+}
+
+#failedQuestionDisplay,
+#totalScoreDisplay,
+#totalTimeDisplay {
+    font-weight: bold;
+}
+
+section div {
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div p {
+    margin: auto;
+}
+
+#questionNumber {
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+}
+
+#questionDisplay {
+    font-weight: bold;
 }
