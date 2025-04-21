@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <script src="./index.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <button>START QUIZ</button>
+    </header>
+
+    <main class="hidden">
+        <h1>TRIVIA QUIZ</h1>
+        <p id="timerDisplay"></p>
+        <p id="questionNumber">Question</p>
+        <p id="countDownTimer"></p>
+        <p id="questionDisplay">What is the name of the cognitive bias wherein a person with low ability in a particular
+            skill mistake
+            themselves as being superior?</p>
+        <form action="">
+            <input type="radio" id="multiple-choice-1" name="trivia_question_answer" value="">
+            <label for="multiple-choice-1">multiple-choice-1</label>
+
+            <input type="radio" id="multiple-choice-2" name="trivia_question_answer" value="">
+            <label for="multiple-choice-2">multiple-choice-2</label>
+
+            <input type="radio" id="multiple-choice-3" name="trivia_question_answer" value="">
+            <label for="multiple-choice-3">multiple-choice-3</label>
+
+            <input type="radio" id="multiple-choice-4" name="trivia_question_answer" value="">
+            <label for="multiple-choice-4">multiple-choice-4</label>
+        </form>
+
+        <button id="nextButton">NEXT</button>
+
+        <p id="displayResults" class="hidden">HIGH STAKES</p>
+    </main>
+
+    <section class="hidden">
+        <h1>SCORE BOARD</h1>
+        <p id="totalScoreDisplay"></p>
+        <ul></ul>
+        <button id="restartButton">RESTART QUIZ WITH DIFFERENT QUESTIONS</button>
+    </section>
+
+</body>
+
+</html>
