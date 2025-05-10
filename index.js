@@ -1,3 +1,9 @@
+// MOVING FORWARD DON'T FORGET TO GIT PUSH TO PERSONALGITHUB REMOTE REPO IE
+// git push personal-github main
+// git push personal-github branch
+// use git remote -v to check which remotes your local repo is linked to
+
+
 document.addEventListener("DOMContentLoaded", () => {
     startQuizTrivia();
 

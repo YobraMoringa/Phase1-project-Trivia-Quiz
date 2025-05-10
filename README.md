@@ -85,8 +85,15 @@ To get started, you will need to clone this repository to your local machine. Fo
 
 6. **Open `index.html` in the browser of your choice:**  Open the `index.html` file (located in the `Eric-Njuguna-trivia-project` directory) in the web browser eg Chrome, Firefox, Edge, Safari
 
+## Phase 1 Final Project Options
+
+SDF-PT10 - Phase 1 Project Problem Statements: [https://github.com/Moringa-SDF-PT10/phase1_project_problem_statements/blob/main/README.md](https://github.com/Moringa-SDF-PT10/phase1_project_problem_statements/blob/main/README.md)
+
+
 ## Contact
 
 Eric Brian Njuguna - eric.njuguna@student.moringaschool.com
+
+Twitter - [https://x.com/YobraMoringa](https://x.com/YobraMoringa)
 
 Project Link: [https://github.com/Moringa-SDF-PT10/Eric-Njuguna-trivia-project](https://github.com/Moringa-SDF-PT10/Eric-Njuguna-trivia-project)
